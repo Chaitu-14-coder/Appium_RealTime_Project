@@ -1,0 +1,90 @@
+2025-03-06 17:56:53,840  INFO [main] General_Store_Application:42 - Appium Server started
+2025-03-06 17:57:07,171  INFO [main] General_Store_Application:26 - User select redio button
+2025-03-06 17:57:13,178  INFO [main] General_Store_Application:28 - User select Country
+2025-03-06 17:57:13,288  INFO [main] General_Store_Application:30 - User click on Login button
+2025-03-06 17:57:15,507 ERROR [main] General_Store_Application:33 - Error message appearsPlease enter your name
+2025-03-06 17:57:21,126  INFO [main] General_Store_Application:53 - User Login Sucessfully
+2025-03-06 17:57:28,337  INFO [main] General_Store_Application:62 - User Perform Scrolling action
+2025-03-06 17:57:30,163  INFO [main] General_Store_Application:77 - User Select Products
+2025-03-06 17:57:34,336 ERROR [main] General_Store_Application:86 - Failed to add products :expected [Cart] but found [Products]
+2025-03-06 17:57:36,379  INFO [main] General_Store_Application:92 - Count of Added Products is :3
+2025-03-06 17:57:36,449  INFO [main] General_Store_Application:100 - Total amount of added Products is :450.97
+2025-03-06 17:57:36,500  INFO [main] General_Store_Application:104 - Total Price of Products is :450.97
+2025-03-06 17:57:36,500  INFO [main] General_Store_Application:108 - Sum and Total Prices matched sucessfully
+2025-03-06 17:57:36,587  INFO [main] General_Store_Application:115 - Check box Selected
+2025-03-06 17:57:41,826  INFO [main] General_Store_Application:117 - Accepted Term and Conditions
+2025-03-06 17:57:41,923  INFO [main] General_Store_Application:119 - Close Popup
+2025-03-06 17:57:42,522  INFO [main] General_Store_Application:121 - Products Successfully perchase
+2025-03-06 17:57:44,539  INFO [main] General_Store_Application:67 - Appium Server ended
+2025-03-06 18:35:34,138  INFO [main] General_Store_Application:49 - Appium Server started
+2025-03-06 18:35:42,492  INFO [main] General_Store_Application:74 - Appium Server ended
+2025-03-06 18:39:35,738  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-06 18:39:48,153  INFO [main] General_Store_Application:27 - User select redio button
+2025-03-06 18:39:54,098  INFO [main] General_Store_Application:29 - User select Country
+2025-03-06 18:39:54,207  INFO [main] General_Store_Application:31 - User click on Login button
+2025-03-06 18:39:56,384 ERROR [main] General_Store_Application:34 - Error message appearsPlease enter your name
+2025-03-06 18:40:02,797  INFO [main] General_Store_Application:54 - User Login Sucessfully
+2025-03-06 18:40:10,051  INFO [main] General_Store_Application:63 - User Perform Scrolling action
+2025-03-06 18:40:11,317  INFO [main] General_Store_Application:78 - User Select Products
+2025-03-06 18:40:15,497 ERROR [main] General_Store_Application:87 - Failed to add products :expected [Cart] but found [Products]
+2025-03-06 18:40:17,547  INFO [main] General_Store_Application:93 - Count of Added Products is :2
+2025-03-06 18:40:18,085  INFO [main] General_Store_Application:101 - Total amount of added Products is :335.97
+2025-03-06 18:40:18,161  INFO [main] General_Store_Application:105 - Total Price of Products is :335.97
+2025-03-06 18:40:18,162  INFO [main] General_Store_Application:109 - Sum and Total Prices matched sucessfully
+2025-03-06 18:40:18,242  INFO [main] General_Store_Application:116 - Check box Selected
+2025-03-06 18:40:23,495  INFO [main] General_Store_Application:118 - Accepted Term and Conditions
+2025-03-06 18:40:23,589  INFO [main] General_Store_Application:120 - Close Popup
+2025-03-06 18:40:24,223  INFO [main] General_Store_Application:122 - Products Successfully perchase
+2025-03-06 18:40:26,233  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-06 18:41:09,326  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-06 18:41:21,707  INFO [main] General_Store_Application:27 - User select redio button
+2025-03-06 18:41:27,695  INFO [main] General_Store_Application:29 - User select Country
+2025-03-06 18:41:27,788  INFO [main] General_Store_Application:31 - User click on Login button
+2025-03-06 18:41:29,964 ERROR [main] General_Store_Application:34 - Error message appearsPlease enter your name
+2025-03-06 18:41:35,564  INFO [main] General_Store_Application:54 - User Login Sucessfully
+2025-03-06 18:41:42,913  INFO [main] General_Store_Application:63 - User Perform Scrolling action
+2025-03-06 18:41:44,133  INFO [main] General_Store_Application:78 - User Select Products
+2025-03-06 18:41:48,339 ERROR [main] General_Store_Application:87 - Failed to add products :expected [Cart] but found [Products]
+2025-03-06 18:41:50,382  INFO [main] General_Store_Application:93 - Count of Added Products is :2
+2025-03-06 18:41:50,429  INFO [main] General_Store_Application:101 - Total amount of added Products is :335.97
+2025-03-06 18:41:50,479  INFO [main] General_Store_Application:105 - Total Price of Products is :335.97
+2025-03-06 18:41:50,479  INFO [main] General_Store_Application:109 - Sum and Total Prices matched sucessfully
+2025-03-06 18:41:50,570  INFO [main] General_Store_Application:116 - Check box Selected
+2025-03-06 18:41:55,858  INFO [main] General_Store_Application:118 - Accepted Term and Conditions
+2025-03-06 18:41:55,941  INFO [main] General_Store_Application:120 - Close Popup
+2025-03-06 18:41:56,572  INFO [main] General_Store_Application:122 - Products Successfully perchase
+2025-03-06 18:41:58,587  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-06 18:44:36,173  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-06 18:44:48,825  INFO [main] General_Store_Application:27 - User select redio button
+2025-03-06 18:44:54,896  INFO [main] General_Store_Application:29 - User select Country
+2025-03-06 18:44:55,007  INFO [main] General_Store_Application:31 - User click on Login button
+2025-03-06 18:44:57,497 ERROR [main] General_Store_Application:34 - Error message appearsPlease enter your name
+2025-03-06 18:45:03,504  INFO [main] General_Store_Application:54 - User Login Sucessfully
+2025-03-06 18:45:10,700  INFO [main] General_Store_Application:63 - User Perform Scrolling action
+2025-03-06 18:45:11,952  INFO [main] General_Store_Application:78 - User Select Products
+2025-03-06 18:45:16,118 ERROR [main] General_Store_Application:87 - Failed to add products :expected [Cart] but found [Products]
+2025-03-06 18:45:18,164  INFO [main] General_Store_Application:93 - Count of Added Products is :2
+2025-03-06 18:45:18,212  INFO [main] General_Store_Application:101 - Total amount of added Products is :280.0
+2025-03-06 18:45:18,250  INFO [main] General_Store_Application:105 - Total Price of Products is :280.0
+2025-03-06 18:45:18,251  INFO [main] General_Store_Application:109 - Sum and Total Prices matched sucessfully
+2025-03-06 18:45:18,340  INFO [main] General_Store_Application:116 - Check box Selected
+2025-03-06 18:45:23,615  INFO [main] General_Store_Application:118 - Accepted Term and Conditions
+2025-03-06 18:45:23,732  INFO [main] General_Store_Application:120 - Close Popup
+2025-03-06 18:45:24,365  INFO [main] General_Store_Application:122 - Products Successfully perchase
+2025-03-06 18:45:26,374  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-06 18:48:48,288  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-06 18:49:20,327  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-10 15:59:57,320  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-10 16:00:49,476  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-10 16:21:19,931  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-10 16:21:58,793  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-10 16:53:55,653  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-10 16:54:30,486  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-10 17:00:05,665  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-10 17:00:41,367  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-10 17:11:01,527  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-10 17:11:35,160  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-10 17:19:22,439  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-10 17:19:56,812  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-03-10 17:20:28,630  INFO [main] General_Store_Application:47 - Appium Server started
+2025-03-10 17:21:02,307  INFO [main] General_Store_Application:72 - Appium Server ended
