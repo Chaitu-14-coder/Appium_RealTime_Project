@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>General Store</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 10 17:20:28 IST 2025</td>
+<td>Started on:</td><td>Tue Apr 01 17:10:02 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34553 ms)</td>
+<tr><td>Total time:</td><td>34 seconds (34273 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.Ecommerce_tc_01.Login_Test_nigative()'><b>Login_Test_nigative</b><br>Test class: testcases.Ecommerce_tc_01</td>
+<td title='testcases.Ecommerce_tc_01.Login_Test()'><b>Login_Test</b><br>Test class: testcases.Ecommerce_tc_01</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [85218402-5c79-4e3f-9873-a719f42292f5, findElement {using=id, value=com.androidsample.generalstore:id/radioFemale}]
+Command: [8b78b98e-2f36-463e-ae93-b5e057ccacff, findElement {value=new UiScrollable(new UiSelector().resourceId(&quot;com.androidsample.generalstore:id/rvProductList&quot;)).scrollIntoView(new UiSelector().textMatches(&quot;Jordan 6 Rings&quot;).instance(0)), using=-android uiautomator}]
 Capabilities {appium:app: C:\Users\DELL\eclipse-works..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\DELL\AppData\Local..., appium:databaseEnabled: false, appium:desired: {app: C:\Users\DELL\eclipse-works..., automationName: UiAutomator2, chromedriverExecutable: C:\Users\DELL\AppData\Local..., deviceName: Medium Phone Appium_Demo, platformName: ANDROID, platformVersion: 15.0}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 85218402-5c79-4e3f-9873-a719f42292f5
+Session ID: 8b78b98e-2f36-463e-ae93-b5e057ccacff
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -95,21 +95,19 @@ Session ID: 85218402-5c79-4e3f-9873-a719f42292f5
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at pages.Home_page.selectRdioBtn(Home_page.java:47)
-	at testcases.Ecommerce_tc_01.Login_Test_nigative(Ecommerce_tc_01.java:28)
+	at utilities.Actions.scroll_upto_element_whiletext_visible(Actions.java:91)
+	at pages.Product_page.scroll_upto_Product(Product_page.java:48)
+	at testcases.Ecommerce_tc_01.Login_Test(Ecommerce_tc_01.java:68)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace622772003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace622772003'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1053744929", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1053744929'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [85218402-5c79-4e3f-9873-a719f42292f5, findElement {using=id, value=com.androidsample.generalstore:id/radioFemale}]
+Command: [8b78b98e-2f36-463e-ae93-b5e057ccacff, findElement {value=new UiScrollable(new UiSelector().resourceId(&quot;com.androidsample.generalstore:id/rvProductList&quot;)).scrollIntoView(new UiSelector().textMatches(&quot;Jordan 6 Rings&quot;).instance(0)), using=-android uiautomator}]
 Capabilities {appium:app: C:\Users\DELL\eclipse-works..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\DELL\AppData\Local..., appium:databaseEnabled: false, appium:desired: {app: C:\Users\DELL\eclipse-works..., automationName: UiAutomator2, chromedriverExecutable: C:\Users\DELL\AppData\Local..., deviceName: Medium Phone Appium_Demo, platformName: ANDROID, platformVersion: 15.0}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 85218402-5c79-4e3f-9873-a719f42292f5
+Session ID: 8b78b98e-2f36-463e-ae93-b5e057ccacff
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -123,11 +121,9 @@ Session ID: 85218402-5c79-4e3f-9873-a719f42292f5
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at pages.Home_page.selectRdioBtn(Home_page.java:47)
-	at testcases.Ecommerce_tc_01.Login_Test_nigative(Ecommerce_tc_01.java:28)
+	at utilities.Actions.scroll_upto_element_whiletext_visible(Actions.java:91)
+	at pages.Product_page.scroll_upto_Product(Product_page.java:48)
+	at testcases.Ecommerce_tc_01.Login_Test(Ecommerce_tc_01.java:68)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -155,11 +151,11 @@ Session ID: 85218402-5c79-4e3f-9873-a719f42292f5
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>24</td>
-<td>testcases.Ecommerce_tc_01@510f3d34</td></tr>
+<td>13</td>
+<td>testcases.Ecommerce_tc_01@2362f559</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -167,35 +163,10 @@ Session ID: 85218402-5c79-4e3f-9873-a719f42292f5
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.Ecommerce_tc_01.Login_Test()'><b>Login_Test</b><br>Test class: testcases.Ecommerce_tc_01</td>
-<td><div><pre>java.lang.Throwable: Method testcases.Ecommerce_tc_01.Login_Test() on instance testcases.Ecommerce_tc_01@510f3d34 depends on not successfully finished methods 
-[testcases.Ecommerce_tc_01.Login_Test_nigative() on instance testcases.Ecommerce_tc_01@510f3d34]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1061018585", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1061018585'><pre>java.lang.Throwable: Method testcases.Ecommerce_tc_01.Login_Test() on instance testcases.Ecommerce_tc_01@510f3d34 depends on not successfully finished methods 
-[testcases.Ecommerce_tc_01.Login_Test_nigative() on instance testcases.Ecommerce_tc_01@510f3d34]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testcases.Ecommerce_tc_01@510f3d34</td></tr>
+<td title='testcases.Ecommerce_tc_01.Login_Test_nigative()'><b>Login_Test_nigative</b><br>Test class: testcases.Ecommerce_tc_01</td>
+<td></td>
+<td>12</td>
+<td>testcases.Ecommerce_tc_01@2362f559</td></tr>
 </table><p>
 </body>
 </html>

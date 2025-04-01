@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
@@ -13,6 +14,9 @@ import pages.Product_page;
 import utilities.Actions;
 import utilities.LoginClass;
 
+
+
+@Listeners(utilities.Reporting.class)
 public class Ecommerce_tc_01 extends BaseTest{
 	public String resourceID = config.getresourceId();
 	
@@ -23,8 +27,8 @@ public static void Login_Test_nigative() throws InterruptedException
 		logger.debug("Started Invalid Login Test");
 		Home_page homepage = new Home_page(driver);
 		driver.manage().timeouts().implicitlyWait(10 , TimeUnit.SECONDS);
-		LoginClass login = new LoginClass();
-		login.Login_Test_positive();
+//		LoginClass login = new LoginClass();
+//		login.Login_Test_positive();
 		homepage.selectRdioBtn();
 		logger.info("User select redio button");
 		homepage.selectcountry();

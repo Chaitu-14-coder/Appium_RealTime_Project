@@ -16,6 +16,7 @@ import org.testng.TestListenerAdapter;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
@@ -72,29 +73,27 @@ public class Reporting extends TestListenerAdapter {
 
     public void onTestFailure(ITestResult tr)
     {
-        System.out.println(("*** Test Failed " + tr.getMethod().getMethodName() + "..."));
-        logger=extent.createTest(tr.getName());
+    	System.out.println("*** Test Failed: " + tr.getMethod().getMethodName());
+
+        // Log test failure in Extent Report
+        logger = extent.createTest(tr.getName());
         logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
 
-        //String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";//save the screenshots with screenshot name.png
-        String screenshotDir = "C:\\Users\\DELL\\eclipse-workspace\\Appium_RealTime_Project\\Screenshots\\";
-        String screenshotPath = screenshotDir + tr.getName() + ".png"; 
-        File screenshotDirFile = new File(screenshotDir);
-        if (!screenshotDirFile.exists()) {
-            screenshotDirFile.mkdirs(); // Create the directory if it doesn't exist
-        }
-        BaseTest base=new BaseTest();
-        File screenshot = ((TakesScreenshot)base.driver).getScreenshotAs(OutputType.FILE);
-        File destFile = new File(screenshotPath);
-        if(destFile.exists()) {
-            try {
-            	FileUtils.copyFile(screenshot, destFile);
-                logger.fail("Screenshot is below:"+logger.addScreenCaptureFromPath(screenshotPath));
-                System.out.println("Screenshot capture successfully");
-            }
-            catch(IOException e) {
-                e.printStackTrace();
-            }
+        // Capture screenshot
+        WebDriver driver = ((BaseTest) tr.getInstance()).getDriver();  // Getting the driver from BaseTest
+        String screenshotDir = System.getProperty("user.dir")+"/Screenshot/";
+        String screenshotPath = screenshotDir + tr.getName() + ".png";
+
+        try {
+            File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            File destFile = new File(screenshotPath);
+            FileUtils.copyFile(screenshot, destFile);
+            logger.fail("Screenshot is below:", 
+            	    MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+         
+            System.out.println("Screenshot captured successfully.");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

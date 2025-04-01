@@ -88,3 +88,64 @@
 2025-03-10 17:19:56,812  INFO [main] General_Store_Application:72 - Appium Server ended
 2025-03-10 17:20:28,630  INFO [main] General_Store_Application:47 - Appium Server started
 2025-03-10 17:21:02,307  INFO [main] General_Store_Application:72 - Appium Server ended
+2025-04-01 14:53:54,782  INFO [main] General_Store_Application:38 - Appium Server started
+2025-04-01 14:54:52,570  INFO [main] General_Store_Application:38 - Appium Server started
+2025-04-01 14:56:15,706  INFO [main] General_Store_Application:38 - Appium Server started
+2025-04-01 15:07:41,585  INFO [main] General_Store_Application:38 - Appium Server started
+2025-04-01 15:08:15,570  INFO [main] General_Store_Application:63 - Appium Server ended
+2025-04-01 15:12:00,692  INFO [main] General_Store_Application:38 - Appium Server started
+2025-04-01 15:12:12,588  INFO [main] General_Store_Application:29 - User select redio button
+2025-04-01 15:12:18,319  INFO [main] General_Store_Application:31 - User select Country
+2025-04-01 15:12:18,387  INFO [main] General_Store_Application:33 - User click on Login button
+2025-04-01 15:12:20,519 ERROR [main] General_Store_Application:36 - Error message appearsPlease enter your name
+2025-04-01 15:12:20,596 ERROR [main] General_Store_Application:58 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 15:12:34,246  INFO [main] General_Store_Application:63 - Appium Server ended
+2025-04-01 15:45:38,447  INFO [main] General_Store_Application:38 - Appium Server started
+2025-04-01 15:45:50,270  INFO [main] General_Store_Application:29 - User select redio button
+2025-04-01 15:45:56,123  INFO [main] General_Store_Application:31 - User select Country
+2025-04-01 15:45:56,189  INFO [main] General_Store_Application:33 - User click on Login button
+2025-04-01 15:45:58,321 ERROR [main] General_Store_Application:36 - Error message appearsPlease enter your name
+2025-04-01 15:45:58,387 ERROR [main] General_Store_Application:58 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 15:46:11,921  INFO [main] General_Store_Application:63 - Appium Server ended
+2025-04-01 15:59:09,796  INFO [main] General_Store_Application:45 - Appium Server started
+2025-04-01 15:59:21,928  INFO [main] General_Store_Application:33 - User select redio button
+2025-04-01 15:59:27,896  INFO [main] General_Store_Application:35 - User select Country
+2025-04-01 15:59:27,954  INFO [main] General_Store_Application:37 - User click on Login button
+2025-04-01 15:59:30,071 ERROR [main] General_Store_Application:40 - Error message appearsPlease enter your name
+2025-04-01 15:59:30,149 ERROR [main] General_Store_Application:62 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 15:59:43,264  INFO [main] General_Store_Application:70 - Appium Server ended
+2025-04-01 16:03:50,202  INFO [main] General_Store_Application:45 - Appium Server started
+2025-04-01 16:04:02,256  INFO [main] General_Store_Application:33 - User select redio button
+2025-04-01 16:04:07,932  INFO [main] General_Store_Application:35 - User select Country
+2025-04-01 16:04:08,009  INFO [main] General_Store_Application:37 - User click on Login button
+2025-04-01 16:04:10,152 ERROR [main] General_Store_Application:40 - Error message appearsPlease enter your name
+2025-04-01 16:04:10,228 ERROR [main] General_Store_Application:62 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 16:04:23,941  INFO [main] General_Store_Application:70 - Appium Server ended
+2025-04-01 16:17:58,787  INFO [main] General_Store_Application:45 - Appium Server started
+2025-04-01 16:18:12,025  INFO [main] General_Store_Application:33 - User select redio button
+2025-04-01 16:18:18,229  INFO [main] General_Store_Application:35 - User select Country
+2025-04-01 16:18:18,345  INFO [main] General_Store_Application:37 - User click on Login button
+2025-04-01 16:18:20,586 ERROR [main] General_Store_Application:40 - Error message appearsPlease enter your name
+2025-04-01 16:18:20,730 ERROR [main] General_Store_Application:62 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 16:18:34,656  INFO [main] General_Store_Application:70 - Appium Server ended
+2025-04-01 16:19:44,817  INFO [main] General_Store_Application:45 - Appium Server started
+2025-04-01 16:19:58,027  INFO [main] General_Store_Application:33 - User select redio button
+2025-04-01 16:20:04,194  INFO [main] General_Store_Application:35 - User select Country
+2025-04-01 16:20:04,312  INFO [main] General_Store_Application:37 - User click on Login button
+2025-04-01 16:20:06,522 ERROR [main] General_Store_Application:40 - Error message appearsPlease enter your name
+2025-04-01 16:20:06,658 ERROR [main] General_Store_Application:62 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 16:20:20,571  INFO [main] General_Store_Application:70 - Appium Server ended
+2025-04-01 17:06:34,627  INFO [main] General_Store_Application:45 - Appium Server started
+2025-04-01 17:06:46,671  INFO [main] General_Store_Application:33 - User select redio button
+2025-04-01 17:06:52,403  INFO [main] General_Store_Application:35 - User select Country
+2025-04-01 17:06:52,471  INFO [main] General_Store_Application:37 - User click on Login button
+2025-04-01 17:06:54,601 ERROR [main] General_Store_Application:40 - Error message appearsPlease enter your name
+2025-04-01 17:06:54,677 ERROR [main] General_Store_Application:62 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 17:07:08,479  INFO [main] General_Store_Application:70 - Appium Server ended
+2025-04-01 17:10:02,358  INFO [main] General_Store_Application:45 - Appium Server started
+2025-04-01 17:10:14,237  INFO [main] General_Store_Application:33 - User select redio button
+2025-04-01 17:10:20,047  INFO [main] General_Store_Application:35 - User select Country
+2025-04-01 17:10:20,122  INFO [main] General_Store_Application:37 - User click on Login button
+2025-04-01 17:10:22,268 ERROR [main] General_Store_Application:40 - Error message appearsPlease enter your name
+2025-04-01 17:10:22,342 ERROR [main] General_Store_Application:62 - Failed Login Test : expected [General Store] but found [Products]
+2025-04-01 17:10:36,041  INFO [main] General_Store_Application:70 - Appium Server ended

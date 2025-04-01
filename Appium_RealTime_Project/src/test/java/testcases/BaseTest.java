@@ -8,6 +8,7 @@ import java.time.Duration;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import io.appium.java_client.android.AndroidDriver;
@@ -16,6 +17,12 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import utilities.ReadConfig;
 
 public class BaseTest {
+    protected WebDriver driver1;
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
 
 	public static AndroidDriver driver;
 	public AppiumDriverLocalService service;
@@ -50,7 +57,7 @@ public class BaseTest {
 		Options.setCapability("chromedriverExecutable", "C:\\Users\\DELL\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\chromedriver\\win\\chromedriver.exe");
 		Options.setApp(app); 
 			
-		URL url = new URI("http://0.0.0.0:4724/wd/hub/").toURL();  //use when appium start manually
+		URL url = new URI("http://0.0.0.0:4723/wd/hub/").toURL();  //use when appium start manually
 		//URL url = new URI("http://127.0.0.1:4724").toURL();
 		 driver = new AndroidDriver(url, Options);
           
